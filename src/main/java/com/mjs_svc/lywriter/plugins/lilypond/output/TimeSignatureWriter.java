@@ -24,6 +24,10 @@ public class TimeSignatureWriter extends MusicWriter {
      */
     @Override
     public String toString() {
-        return "\n" + indent() + "\\time " + ((TimeSignature) obj).getNumerator() + "/" + ((TimeSignature) obj).getDisplayDenominator();
+        return "\n" + indent() +
+				"\\time " +
+				((TimeSignature) obj).getNumerator()
+				+ "/" + ((TimeSignature) obj)
+				.getDisplayDenominator();
     }
 }

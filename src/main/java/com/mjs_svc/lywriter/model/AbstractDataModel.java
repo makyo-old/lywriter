@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package com.mjs.lywriter.model;
+package com.mjs_svc.lywriter.model;
 
-import com.mjs.lywriter.model.DataModel.CopyStrategy;
+import com.mjs_svc.lywriter.model.DataModel.CopyStrategy;
 import java.util.Collection;
 import java.util.Observable;
 import java.util.Set;

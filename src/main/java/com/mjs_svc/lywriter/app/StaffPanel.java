@@ -10,14 +10,32 @@ import java.awt.*;
  */
 public class StaffPanel extends JPanel {
     private Staff s;
+    Graphics g;
 
     public StaffPanel(Staff _s) {
         s = _s;
     }
 
     @Override
-    public void paintComponent(Graphics g) {
+    public void paintComponent(Graphics _g) {
+        g = _g;
 
+    }
+
+    public void drawArticulation(Articulation a) {
+
+    }
+
+    public void drawBar(Bar b) {
+
+    }
+
+    public void drawBarRest(BarRest b) {
+
+    }
+
+    public void drawChord(Chord c) {
+        
     }
 
     public void drawClef(Clef c) {
@@ -25,6 +43,10 @@ public class StaffPanel extends JPanel {
     }
 
     public void drawTimeSignature(TimeSignature t) {
+
+    }
+
+    public void drawNote(Note n) {
 
     }
 

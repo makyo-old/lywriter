@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.mjs.lywriter.model;
+package com.mjs_svc.lywriter.model;
 
 /**
  *

@@ -1,0 +1,4 @@
+lyWriter
+========
+
+[Lilypond](http://www.lilypond.org) is a robust TeX-like language used for sheet music engraving (typesetting). While the output from Lilypond is beautiful and publication-ready, a text-based language is difficult to actually compose in. lyWriter's goal is to act as a tool using Lilypond as a file-format in order to blend publishable output (without reinventing the wheel!) with ease of content creation.

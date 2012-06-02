@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-package com.mjs.parser
+package com.mjs_svc.lywriter.parser
 
 class Lexer {
 
